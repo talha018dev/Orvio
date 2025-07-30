@@ -10,7 +10,8 @@ const LoginPage = async () => {
     const token =  (await cookies()).get('accessToken')
     return (
         <div className='mx-auto text-primaryText flex flex-col h-screen w-full bg-pageBgColor justify-center '>
-            <main className='mt-[var(--header-height)] h-[calc(100dvh-var(--header-height))]'>
+            {/* <main className='mt-[var(--header-height)] h-[calc(100dvh-var(--header-height))] content-center mt-0'> */}
+            <main className=' h-[calc(100dvh-var(--header-height))] content-center mt-0'>
                 <LoginForm />
             </main>
         </div>

@@ -37,6 +37,10 @@ const Header = () => {
         router.push('/login')
     }
 
+    if(pathname?.includes('login')){
+        return
+    }
+
     return (
         <motion.div
             initial={{ opacity: 0 }}
