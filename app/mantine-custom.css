@@ -1,0 +1,14 @@
+.mantine-Modal-overlay,
+.mantine-Modal-inner {
+  z-index: 10000 !important;
+}
+.mantine-Modal-content {
+  border-radius: 12px !important;
+}
+/* .custom-radio-indicator svg {
+  width: calc(.5rem * 1.5) !important;
+  height: calc(.5rem * 1.5) !important;
+} */
+.mantine-focus-auto:focus-visible, .mantine-focus-always:focus {
+  outline: none !important;
+}
