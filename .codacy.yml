@@ -1,0 +1,12 @@
+engines:
+  duplication:
+    minTokenMatch: 130
+    skipLexicalErrors: false
+    ignoreLiterals: false
+    ignoreIdentifiers: true
+    ignoreAnnotations: false
+    ignoreUsings: false
+
+exclude-paths:
+  - '**/*.test.tsx'
+  - '**/*.tests.tsx'
