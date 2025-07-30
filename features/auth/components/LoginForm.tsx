@@ -50,7 +50,8 @@ const LoginForm = ({ }: LoginFormProps) => {
 
     const onSubmit = (data: FieldValues) => {
         const updatedData = {
-            ...data,
+            email: 'talha@6sensehq.com',
+            password: 'Rs123456',
             type: "password",
             remember: signInCheck
         }
