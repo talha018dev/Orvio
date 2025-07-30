@@ -2,8 +2,8 @@ import ForgotPasswordForm from '@/features/auth/components/ForgotPasswordForm';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Reelsync.io Login Page",
-  description: "Reelsync.io Login Page",
+  title: "Orvio Login Page",
+  description: "Orvio Login Page",
 }
 const ForgotPasswordPage = () => {
   return (

@@ -19,8 +19,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "Reelsync.io",
-  description: "Reelsync.io",
+  title: "Orvio",
+  description: "Orvio",
 };
 
 export default function RootLayout({

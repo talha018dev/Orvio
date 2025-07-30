@@ -135,7 +135,7 @@ const ProfileEditForm = () => {
                                     <Input name='name' placeholder={'Full Name'} label={'Full Name'} colorInverse={true} />
                                     <Input name='email' placeholder={'Email'} label={'Email'} colorInverse={true} disabled={true} />
                                     <PhoneInput2 />
-                                    <CheckboxInput checked={consentCheck} setChecked={setConsentCheck} textClassName='text-xs' className='my-4 text-xs' text={'I agree to receive text messages from reelsync.io for updates and notifications. Message & data rates may apply.'} />
+                                    <CheckboxInput checked={consentCheck} setChecked={setConsentCheck} textClassName='text-xs' className='my-4 text-xs' text={'I agree to receive text messages from Orvio for updates and notifications. Message & data rates may apply.'} />
                                     <Input name='addressLine' placeholder={'Address Line'} label={'Address Line'} colorInverse={true} labelOptional={true} />
                                     <div className='grid grid-cols-2 gap-4 items-end'>
                                         <Input setCallZipCodeApi={setCallZipCodeApi} name='zip' placeholder={'Zip Code'} label={'Zip Code'} colorInverse={true} labelOptional={true} />

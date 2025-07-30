@@ -3,8 +3,8 @@ import { Metadata } from 'next';
 import { cookies } from 'next/headers';
 
 export const metadata: Metadata = {
-    title: "Reelsync.io Login Page",
-    description: "Reelsync.io Login Page",
+    title: "Orvio Login Page",
+    description: "Orvio Login Page",
 }
 const LoginPage = async () => {
     const token =  (await cookies()).get('accessToken')

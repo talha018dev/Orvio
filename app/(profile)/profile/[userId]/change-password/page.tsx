@@ -2,8 +2,8 @@ import ChangePasswordForm from '@/features/profile/components/ChangePasswordForm
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Reelsync.io Change Password Page",
-    description: "Reelsync.io Change Password Page",
+    title: "Orvio Change Password Page",
+    description: "Orvio Change Password Page",
 }
 const ChangePasswordPage = async ({params}: {params: any}) => {
     const {userId} = await params

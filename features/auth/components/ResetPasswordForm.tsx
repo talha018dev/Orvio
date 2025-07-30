@@ -74,7 +74,7 @@ const ResetPasswordForm = ({ }: ResetPasswordFormProps) => {
                 <FormProvider {...methods}>
                     <div className={cn('w-full mt-9 mb-6')}>
                         <form onSubmit={methods.handleSubmit(onSubmit)} autoComplete="off">
-                            <p className="mb-2 text-xs text-[#6B7280]">Please enter a new password for your reelsync.io account.</p>
+                            <p className="mb-2 text-xs text-[#6B7280]">Please enter a new password for your Orvio account.</p>
                             <div className='relative'>
                                 <Input inputType='password' inputDivClassName='' name='password' placeholder={'Password'} label={'Password'} />
                                 {!methods?.formState?.errors["password"] ?

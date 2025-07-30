@@ -55,7 +55,7 @@ const Step3 = ({ setVendorFormData, setCurrentStep }: Step3Props) => {
                         <Input name='name' placeholder={'User Name'} label={'User Name'} colorInverse={true} />
                         <Input name='email' placeholder={'Email'} label={'Email'} colorInverse={true} />
                         <PhoneInput2 />
-                        <CheckboxInput checked={consentCheck} setChecked={setConsentCheck} textClassName='text-xs' className='my-4 text-xs' text={'I agree to receive text messages from reelsync.io for updates and notifications. Message & data rates may apply.'} />
+                        <CheckboxInput checked={consentCheck} setChecked={setConsentCheck} textClassName='text-xs' className='my-4 text-xs' text={'I agree to receive text messages from Orvio for updates and notifications. Message & data rates may apply.'} />
                     </div>
                     <div className='relative'>
                         <Input inputType='password' inputDivClassName='' name='password' placeholder={'Password'} label={'Password'} colorInverse={true} />

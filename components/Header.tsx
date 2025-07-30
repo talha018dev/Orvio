@@ -69,7 +69,7 @@ const Header = () => {
                             </div> : null
                     }
                     <ImageComponent src={'/logo.svg'} alt={'logo'} className="size-4.5 relative bottom-[2px]" width={''} height={''} />
-                    <div className="font-semibold text-sm text-primaryText">ReelSync.io</div>
+                    <div className="font-semibold text-sm text-primaryText">Orvio</div>
                     {
                         store?.userInfo?.token?.accessToken ?
                             <section className='ml-auto'>

@@ -106,7 +106,7 @@ const ForgotPasswordForm = ({ }: ForgotPasswordFormProps) => {
                 !emailParam ?
                     <section className='max-w-(--max-width) mx-auto px-4 wrap'>
                         <H1Text className='mt-4'>Forgot Password</H1Text>
-                        <Text className='mt-10 text-xs text-secondaryText'>To reset your password, please enter the email address of your reelsync.io account.</Text>
+                        <Text className='mt-10 text-xs text-secondaryText'>To reset your password, please enter the email address of your Orvio account.</Text>
                         <FormProvider {...methods}>
                             <div className={cn('w-full mt-2 mb-10')}>
                                 <form onSubmit={methods.handleSubmit(onSubmit)} autoComplete="off">

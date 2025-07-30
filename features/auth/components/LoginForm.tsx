@@ -110,7 +110,7 @@ const LoginForm = ({ }: LoginFormProps) => {
                 </FormProvider>
                 <Link className="text-xs underline" href='/forgot-password'>Forgot your password?</Link>
                 <div className='text-xs leading-5 mt-6'>
-                    <span>By continuing with Google, Apple, or Email, you agree to reelsync.io’s&nbsp;</span>
+                    <span>By continuing with Google, Apple, or Email, you agree to Orvio’s&nbsp;</span>
                     <Link className='underline' href='https://www.skyhausmedia.com/terms-and-conditions' target='_blank'>Terms of Service</Link>
                     <span>&nbsp;and&nbsp;</span>
                     <Link className='underline' href='https://www.skyhausmedia.com/privacy-policy' target='_blank'>Privacy Policy.</Link>

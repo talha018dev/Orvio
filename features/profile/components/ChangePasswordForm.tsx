@@ -77,7 +77,7 @@ const ChangePasswordForm = ({ userId }: ChangePasswordFormProps) => {
                 <FormProvider {...methods}>
                     <div className={cn('w-full mt-9 mb-6')}>
                         <form onSubmit={methods.handleSubmit(onSubmit)} autoComplete="off">
-                            <p className="mb-2 text-xs text-[#6B7280]">Please enter a new password for your reelsync.io account.</p>
+                            <p className="mb-2 text-xs text-[#6B7280]">Please enter a new password for your Orvio account.</p>
                             <Input inputType='password' inputDivClassName='pt-4' name='oldPassword' placeholder={'Old Password'} label={'Old Password'} />
                             <div className='relative'>
                                 <Input inputType='password' inputDivClassName='' name='newPassword' placeholder={'Password'} label={'Password'} />
