@@ -50,7 +50,7 @@ const Header = () => {
         >
             {store?.userInfo?.token?.accessToken ? <Sidebar open={open} setOpen={setOpen} /> : null}
             <div className="fixed h-20 w-screen top-0 left-0 z-[10000]  bg-pageBgColor">
-                <div className="flex items-end mt-auto h-full gap-1 max-w-(--max-width) mx-auto px-4">
+                <div className="flex items-end mt-auto h-full gap-1 max-w-(--max-width) mx-auto px-4 pb-2">
                     {
                         store?.userInfo?.token?.accessToken ?
                             <div
@@ -68,7 +68,8 @@ const Header = () => {
                                 </div>
                             </div> : null
                     }
-                    <ImageComponent src={'/logo.svg'} alt={'logo'} className="size-4.5 relative bottom-[2px]" width={''} height={''} />
+                    {/* <ImageComponent src={'/logo.svg'} alt={'logo'} className="size-4.5 relative bottom-[2px]" width={''} height={''} /> */}
+                    {/* <h2>Orvio</h2> */}
                     <div className="font-semibold text-sm text-primaryText">Orvio</div>
                     {
                         store?.userInfo?.token?.accessToken ?
